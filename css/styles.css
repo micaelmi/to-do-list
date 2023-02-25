@@ -1,0 +1,92 @@
+/*=========== RESET ==========*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+main {
+  max-width: 350px;
+  min-height: 80vh;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  background-color: #f3f2ea;
+}
+
+.fields {
+  display: flex;
+  margin: 1rem;
+  gap: 0.5rem;
+}
+.fields input {
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid;
+  width: calc(100% - 2rem);
+}
+.fields button {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  min-width: 32px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.fields button:hover {
+  scale: 1.1;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  margin-left: 4rem;
+  gap: 0.5rem;
+}
+.tasks li {
+  font-size: 1.1rem;
+  list-style: decimal-leading-zero;
+}
+.tasks li button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.tasks li button:hover {
+  scale: 1.1;
+}/*# sourceMappingURL=styles.css.map */
